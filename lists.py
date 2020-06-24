@@ -7,3 +7,4 @@ for i in fhndl:
         continue
     if ls[0]=="From":
         print(ls[1])
+        
