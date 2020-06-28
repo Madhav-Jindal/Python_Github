@@ -11,4 +11,6 @@ temp=list()
 for key,value in count.items():
     temp.append([value,key])
 temp=sorted(temp,reverse=True)
-print(temp[:10])
+print("Printing using basic method\n",temp[:10],"\n")
+#Using list comprehension
+print("printing using list comprehension method\n",sorted([(v,k) for k,v in count.items()],reverse=True))
